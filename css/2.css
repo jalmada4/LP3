@@ -1,0 +1,95 @@
+/*Selectores*/
+/* Selectores universales*/
+/*las etiquetas tienen un peso de 1
+las clases y pseudoclases de 10
+id tienen peso de 100
+estilos en lineas tienen peso de 1000
+estilo important le gana a todos los anteriores*/
+
+
+*{
+    color: firebrick;
+}
+
+h1{
+    color: green;
+}
+
+p{
+    color: indigo;
+}
+
+/*selectores por clase(RECOMENDABLE)*/
+
+.titulo{
+    color: gold;
+}
+
+.parrafo{
+    color: blue;
+}
+
+/*selectores por id*/
+#titulo{
+    color: chartreuse;
+}
+#parrafo{
+    color: green;
+}
+
+/*selectores de atributos*/
+[href]{
+    color: blueviolet;
+}
+
+/*selectores de href="#"*/
+[href="#"]{
+    color: red;
+}
+
+/*selectores de atributos por clase (presionando..alt+126=~)*/
+[class~="rojo"]{
+    color: deeppink;
+}
+
+/*selector de atributo para los que empiecen con una clase (alt+94=^)*/
+[class^="rojo"]{
+    color: black;
+}
+
+/*selector de atributo para los que terminan con una clase $*/
+[class$="verde"]{
+    color: rgb(219, 124, 29);
+}
+
+/*selector de atributo para los que contengan una clase (*)*/
+[class*="verde"]{
+    color: darkslategrey;
+}
+
+/*selectores combinadores*/
+/*toma al hermano adyacente del hermano que esta por debajo*/
+h1 + h2{
+    color: red;
+}
+/*no tiene ningun efecto cuando se suman por el mismo*/
+h2 + h2{
+    color: blue;
+}
+/*selector hermano general*/
+h1 ~ h3{
+    color: olive;
+}
+
+/*selector hijo*/
+p span{
+    color: rgb(231, 231, 25);
+}
+
+p span{
+    color: aqua !important;
+}
+
+
+
+

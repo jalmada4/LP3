@@ -79,6 +79,7 @@ h2 + h2{
 /*selector hermano general*/
 h1 ~ h3{
     color: olive;
+    border: solid 5px;
 }
 
 /*selector hijo*/

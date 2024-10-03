@@ -18,7 +18,7 @@ focus
     background: tomato;
 }
 
-.button{
+.buttom{
     text-decoration: none;
     display: inline-block;
     background: red;
@@ -27,16 +27,14 @@ focus
     color: aqua;
 }
 
-.button:active{
-    transform: scale(.9);
+.buttom:active{
+    transform:scale(.9) ;
 }
-
-.button:hover{
+.buttom:hover{
     color: darkgoldenrod;
-    background-color: aliceblue;
+    background: aliceblue;
     border: 1px solid darkgoldenrod;
 }
-
 .input:focus{
     background: gray;
 }
@@ -44,3 +42,4 @@ focus
 .parrafo{
     margin-top: 1000px;
 }
+

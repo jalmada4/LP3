@@ -1,0 +1,17 @@
+/*TABLAS*/
+.table, .table__data, .table__head{
+    border: 1px solid blue;
+    border-spacing: 10px;
+}
+
+.table{
+    border-collapse:collapse ;
+}
+
+.table__data{
+    background: burlywood;
+}
+
+.table-container{
+    overflow-x: auto;
+}

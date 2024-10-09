@@ -1,0 +1,80 @@
+/*css del formulario*/
+/*el secreto meter todo los elementos dentro de cajas div*/
+
+body{
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8,#3a1957);
+    background-repeat: no-repeat;
+    margin: 0;
+    color: rgb(136, 189, 222);
+    height: 100vh; /*sirve para cambiar la escala del (meta viewport)*/
+}
+
+img{
+    max-width: 80%;
+}
+
+.tarjeta_principal{
+    background-color: rgb(65, 13, 161);
+    width: 80%;
+    height: 450px;
+    display: flex;
+    margin: 2em;
+}
+
+.tarjeta_izquierda{
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: #4375b6;
+    padding: .5em 0;
+}
+
+.tarejta_derecha{
+    width: 80%;
+    padding: 1rem;
+}
+
+.trjeta_titulo{
+    text-transform: uppercase;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.formulario_nombres{
+    display: flex;
+}
+
+.formulario_campos{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__label{
+    margin-bottom: .5em;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.formulario_input, .formulario__textarea{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    color: inherit;
+}
+
+.formulario_submit{
+    width: 40%;
+    background: #1b8791;
+    border: none;
+    padding: .8rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: inherit;
+}

@@ -1,0 +1,27 @@
+/*FLEXBOx*/
+
+.flex-container{
+    background: tomato;
+    padding: .5em;
+    display: flex; /*es para convertir al elemento en bloque*/
+   /*display: inline-flex; /*es para convertir al elemento en linea*/
+   /*flex-direction: row; /*esta es la propiedad por defecto*/
+   /*flex-direction: row-reverse; /*sirve para revertir el orden entre el main start y el main end*/
+   /*flex-direction: column; /*opcion por defecto del eje vertical cross start y cross end*/
+    /*flex-direction: column-reverse; /*sirve para revertir el orden entre el cross start y el cross end*/
+    /*PROPIEDAD WRAP*/
+    /*flex-wrap: nowrap; /*opcion por defecto del flex-wrap*/
+    /*flex-wrap: wrap; /*opcion para dar saltos de linea en caso de ser necesario*/
+    /*flex-wrap: wrap-reverse; /*opcion para revertir el orden y ordena de manera vertical y reves*/
+    
+}
+
+.flex-item{
+    width: 30px;
+    height: 30px;
+    margin: .5em;
+    background: steelblue;
+    line-height: 30px;
+    text-align: center;
+    color: aliceblue;
+}

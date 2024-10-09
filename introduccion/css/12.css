@@ -1,0 +1,21 @@
+/*position*/
+/*Relative
+Absolute
+fixed
+Stiky
+z-index
+display
+*/
+
+
+/*POSITION display*/
+.inline{
+    background: darkgreen;
+    margin-right: 3em;
+    display: block;
+}
+
+.block{
+    background: darkred;
+    display: inline;
+}

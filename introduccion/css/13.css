@@ -1,0 +1,42 @@
+/*::first-letter
+::first-line
+::before
+::after
+::selection
+*/
+
+
+/*PSEUDOELEMENTOS*/
+.title::first-letter{
+    color: darkred;
+    font-size: 2em;
+    
+}
+
+.title::first-line{
+    font-size: 1em;
+    color: blue;
+}
+
+.inline{
+    display: block;
+}
+
+.inline::first-letter{
+    color: red;
+    font-size: 2em;
+}
+
+/*esto hace que marque el color elegido al seleccionar o marcar algo del texto*/
+.texto::selection{
+    color: blue;
+    background: burlywood;
+}
+
+.guaranies::before{
+    content: 'Gs. ';
+}
+
+.guaranies::after{
+    content: '0.000';
+}

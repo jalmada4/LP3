@@ -1,0 +1,33 @@
+/*GRID ARCHIVO 4 "ALINEAMIENTO"*/
+
+body{
+    height: 100vh;
+    color: #eee;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, blue, rgb(57, 57, 133));
+    background-repeat: no-repeat;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    height: 80vh;
+    border: 3px solid yellowgreen;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center; /*pueden ser star,en, strech, center*/
+    justify-items: start;
+    align-items: center; /*pueden ser star,en, strech, center*/
+    align-content: space-between; /*deja un espacio entre cada elemento*/
+    
+
+}
+
+.grid-item{
+    border: .5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}

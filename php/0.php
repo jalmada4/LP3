@@ -25,16 +25,20 @@
         <?php
         
         class auto {
-            function auto(){
+            
+        
+                
+            function __construct() {
                 $this->marca = "KIA";
                 $this->modelo = "Picanto";
-                $this->motor = 2.0;
+                $this->motor = "2.0";
             }
         }
 
         $automovil = new auto();
-        echo $automovil->modelo;
-        echo $automovil->marca;
+        echo $automovil->marca. "<br>";
+        echo $automovil->modelo. "<br>";
+        echo $automovil->motor;
 
         echo "<h1>Variables null</h1>";
         $x = "Hola mundo";

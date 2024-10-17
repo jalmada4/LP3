@@ -1,0 +1,51 @@
+/*RESPONSIVE -desing*/
+/*Banner con unidades del viewport vh
+footer siempre poner abajo
+responsive con flexbox
+responsive con grid
+*/
+
+body{
+    margin: 0;
+    color: #eee;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #3a1957, #b94bf8);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*Estilo responsive con flexbox*/
+/*.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox__item{
+    margin: 2rem;
+    min-width: 320px;
+    flex: 1 1 320px;
+}*/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    padding: 1rem;
+}
+
+.banner{
+    background: royalblue;
+    padding: 10vmin;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer{
+    background-color: royalblue;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: auto;
+}

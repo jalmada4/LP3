@@ -7,12 +7,12 @@ window.addEventListener('load', ()=>{
 
     $('#apellido').bind('keyup blur', function(){
         var node = $(this);
-        node.val(node.val().replace(/[^a-z && A-Z]/g,''));
+        node.val(node.val().replace(/[^a-z && A-Z]/g,''));//para que acepte solo letras 
     });
 
     $('#ci').bind('keyup blur', function(){
         var node = $(this);
-        node.val(node.val().replace(/[^0-9]/g,''));
+        node.val(node.val().replace(/[^0-9]/g,''));//para que acepte solo numeros
     });
 
     document.getElementById('email').addEventListener('input', function(event){

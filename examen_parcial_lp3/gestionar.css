@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #9d9595;
+    font-family: cursive;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-image: radial-gradient(circle, #4334c5, #220691);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    
+   
+    padding: 20px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.cancelar {
+    background-color: #f44336;
+}
+
+.cancelar:hover {
+    background-color: #e53935;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 1%;
+    padding: 10px 0;
+    background-image: radial-gradient(circle, #4334c5, #220691);
+    color: rgb(182, 180, 192);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}

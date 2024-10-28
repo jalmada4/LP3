@@ -78,3 +78,71 @@ img{
     text-transform: uppercase;
     color: inherit;
 }
+
+.form {
+    display: flex; /* Usamos flexbox para alinear los elementos en fila */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.boton_enviar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(164, 163, 163);
+    cursor: pointer;
+    background: rgb(6, 99, 17);
+    cursor: pointer;
+}
+
+.boton_enviar:hover{
+    transform: scale(1.05);
+    background: rgb(4, 122, 51);
+}
+
+.boton_listar{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(164, 163, 163);
+    cursor: pointer;
+    background: rgb(97, 3, 3);
+}
+
+.boton_listar:hover{
+    transform: scale(1.05);
+    background: rgb(131, 4, 4);
+
+}
+
+.boton_inicio{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(164, 163, 163);
+    cursor: pointer;
+    background: rgb(3, 97, 30);
+}
+
+.boton_inicio:hover{
+    transform: scale(1.05);
+    background: rgb(4, 122, 51);
+
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10%;
+    padding: 10px 0;
+    background-image: radial-gradient(circle, #4334c5, #220691);
+    color: rgb(182, 180, 192);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0%;
+    font-size: small;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}

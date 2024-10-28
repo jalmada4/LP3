@@ -1,0 +1,46 @@
+/*Css del formulario*/
+/*El secreto es meter todos los elemntos dentro de cajas div*/
+body{
+    font-family: sans-serif;
+    /*background-image: radial-gradient(circle, #b94bf8, #3a1957);*/
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-image: url('img/componentes-informatica.jpg');
+    background-size: cover;
+}
+
+.header{
+    background-image: radial-gradient(circle, #4334c5, #220691);
+    color: #eee;
+    font-family: cursive;
+}
+
+nav a{
+ color: #77880a;
+ text-decoration: wavy;
+ font-style: italic;
+ font-family: monospace;
+ font-size: x-large;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50%;
+    padding: 10px 0;
+    background-image: radial-gradient(circle, #4334c5, #220691);
+    color: rgb(182, 180, 192);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+}
+
+a{
+    color: rgb(182, 180, 192);
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}

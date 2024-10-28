@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: radial-gradient(circle, #4334c5, #220691);
+}
+
+header{
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+.galery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 5px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    grid-auto-flow: dense;
+}
+
+.galery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+
+}
+
+/* Cuando el mouse pasa sobre la imagen */
+img:hover {
+    transform: scale(1.05); /* Agranda la imagen un 5% */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-image:radial-gradient(circle, #b537d4, #810a9f) ;
+    color: rgb(36, 12, 171);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    color: #897eea;
+    font-family: cursive;
+}
+
+a{
+    color: rgb(182, 180, 192);
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
